@@ -2,8 +2,7 @@
 
 A full-stack e-commerce web application for browsing, searching, and purchasing books online. Built with a **React (Vite)** frontend and a **Spring Boot REST API** backend, featuring token-based authentication, a shopping cart, wishlist, order management, and a dedicated admin dashboard.
 
-**🔗 Live Demo:** [🚀 Live Demo ](https://full-stack-online-book-store-web-ap.vercel.app/)
-
+**🔗 Live Demo:** [🚀 View BOOK WORLD Live Demo](https://full-stack-online-book-store-web-ap.vercel.app/)
 ---
 
 ## 📖 Project Overview
