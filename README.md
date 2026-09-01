@@ -2,7 +2,7 @@
 
 A full-stack e-commerce web application for browsing, searching, and purchasing books online. Built with a **React (Vite)** frontend and a **Spring Boot REST API** backend, featuring token-based authentication, a shopping cart, wishlist, order management, and a dedicated admin dashboard.
 
-**🔗 Live Demo:** [full-stack-online-book-store-web-ap.vercel.app](https://full-stack-online-book-store-web-ap.vercel.app/)
+**🔗 Live Demo:** [🚀 Live Demo ](https://full-stack-online-book-store-web-ap.vercel.app/)
 
 ---
 
@@ -307,10 +307,12 @@ For a production deployment, update `app.cors.allowed-origins` to your deployed 
 
 ## ☁️ Deployment
 
-- **Frontend:** Deployed on **Vercel** → [full-stack-online-book-store-web-ap.vercel.app](https://full-stack-online-book-store-web-ap.vercel.app/)
-- **Backend:** Configure `VITE_API_BASE_URL` in the frontend's environment settings to point to your deployed backend's URL, and update `app.cors.allowed-origins` on the backend to match your deployed frontend's origin.
+- **Frontend:** Deployed on **Vercel**
+- **Backend:** Deployed on **Render**
 
-> Since the backend currently uses in-memory storage, all data will reset on every backend restart/redeploy. Keep this in mind when deploying the backend to a platform that restarts on inactivity or redeploys.
+Configure `VITE_API_BASE_URL` in the frontend's environment settings (on Vercel) to point to the deployed backend's Render URL, and update `app.cors.allowed-origins` on the backend to match the deployed frontend's Vercel origin.
+
+> Since the backend currently uses in-memory storage, all data will reset on every backend restart/redeploy. Keep this in mind on Render's free tier, where the service can spin down after inactivity and lose all seeded/added data on the next restart.
 
 ---
 
